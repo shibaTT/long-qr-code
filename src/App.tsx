@@ -77,7 +77,7 @@ function App() {
                     <button onClick={generateQRCode} disabled={!inputText}>
                         QRコード生成
                     </button>
-                    <div className="stats">文字数: {inputText.length}</div>
+                    <div className="stats">文字数: {inputText.length} / 30000（目安）</div>
                 </div>
                 {qrData && (
                     <div className="qr-container">
